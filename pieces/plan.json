@@ -1,0 +1,54 @@
+{
+ "format": 1,
+ "member": "p",
+ "sections": [
+  {
+   "file": "models.sec",
+   "bytes": 60680,
+   "sha256": "28b6e249335038b7cb53ef6ec44129d984331e9670f65cb13f26e566e43420b9"
+  },
+  {
+   "file": "residual.sec",
+   "bytes": 96,
+   "sha256": "8ab2fe748ab7d69d2102ba2292289e22bd7ea503f8ae29938e0854ec46ca3da1"
+  },
+  {
+   "file": "token.sec",
+   "bytes": 112181,
+   "sha256": "5cd965984f1118fa50ad06daef81fd1deccb63f1124ca6a78db60c1f0103de7c"
+  },
+  {
+   "file": "warp.sec",
+   "bytes": 115,
+   "sha256": "be6756d33fff066658293bba76acd3139ffc681e6c872b827a2a2998a69bd476"
+  },
+  {
+   "file": "ext.sec",
+   "bytes": 140,
+   "sha256": "1522a55fa2c49b70a3aea06c0521852879f3dacae0170bb169b1beb13856a0c6"
+  }
+ ],
+ "trailer": [
+  "uint16_le(len(ext))",
+  "uint16_le(len(warp)+len(ext)+2)"
+ ],
+ "payload_bytes": 173216,
+ "payload_sha256": "861f4aa9412aebf7d8445ba8c68aa56e5e52590720326654cd0e8ef8b4a83527",
+ "zip": {
+  "compression": "stored",
+  "date_time": [
+   1980,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "create_system": 3,
+  "external_attr": 27525120,
+  "extract_version": 20,
+  "flag_bits": 0
+ },
+ "archive_bytes": 173316,
+ "archive_sha256": "b1b94e987e9430382e00e11d8f2a5402ffa5ed5788e7f4c4e90e59b046900eb6"
+}
