@@ -39,6 +39,10 @@ Starting from the inherited public state, this version refines the token map, ap
 
 Assembles `build/archive.zip` from `pieces/` (see `pieces/plan.json`) and checks the SHA256. No GPU, videos or models needed.
 
+## Writeup
+
+See [WRITEUP.md](WRITEUP.md) for the experiments, what worked, what didn't, and the rate-distortion analysis.
+
 ## Verify
 
     ./verify.sh                                    # sizes, SHA256, manifest, rebuild, cmp
